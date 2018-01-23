@@ -1,0 +1,21 @@
+Serverless Instructions for AWS:
+
+1. npm install -g serverless
+
+2. Create Directory structure for application.
+
+For nodejs application:
+
+serverless create --template aws-nodejs --path myService
+
+For python application:
+
+serverless create --template aws-python --path myService
+
+3. Deploy:
+
+cd myService
+
+serverless deploy
+
+REFER: https://serverless.com/framework/docs/providers/aws/examples/hello-world/
